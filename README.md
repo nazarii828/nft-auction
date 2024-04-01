@@ -22,7 +22,7 @@ To run the project follow these steps:
 1. Clone the project with the code below.
 
    ```sh
-   git clone https://github.com/breavedev/nft_auction
+   git clone https://github.com/nazarii828/nft_auction
    cd dappAution # Navigate to the new folder.
    yarn install # Installs all the dependencies.
    ```
