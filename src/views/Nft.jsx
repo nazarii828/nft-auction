@@ -83,7 +83,7 @@ const Bidders = ({ bidders, auction }) => {
       {
         pending: 'Processing...',
         success: 'Price claim successful, will reflect within 30sec 👌',
-        error: 'Encountered error 🤯',
+        error: 'Encountered error ',
       },
     )
   }
