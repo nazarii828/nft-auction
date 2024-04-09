@@ -67,8 +67,6 @@ contract Auction is ERC721, ReentrancyGuard {
         listingPrice = _price;
     }
 
-    //Changes the default minimum price to buy an NFT
-    //Only the owner of NFT can change the price
     //Cannot be changed while auction period
     function changePrice(uint tokenId, uint price) public {
         require(
